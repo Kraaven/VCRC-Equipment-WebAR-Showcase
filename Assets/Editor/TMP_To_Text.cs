@@ -18,7 +18,7 @@ public class TMPToLegacyTextConverter : EditorWindow
             Font defaultFont = Resources.GetBuiltinResource<Font>("Arial.ttf");
             
             float originalFontSize = tmp.fontSize;
-            float scaleFactor = 0.1f; // Scale factor for visibility
+            float scaleFactor = 1000; // Scale factor for visibility
 
             Undo.RecordObject(go, "Convert TMP to Legacy Text");
 
@@ -30,11 +30,13 @@ public class TMPToLegacyTextConverter : EditorWindow
             legacyText.text = textContent;
             legacyText.color = textColor;
             legacyText.font = defaultFont;
-            legacyText.fontSize = Mathf.RoundToInt(originalFontSize * 10); // Increase font size
+            legacyText.fontSize = (int) (originalFontSize * scaleFactor);
             legacyText.alignment = TextAnchor.MiddleCenter;
+            legacyText.horizontalOverflow = HorizontalWrapMode.Overflow;
+            legacyText.verticalOverflow = VerticalWrapMode.Overflow;
             
             // Scale down the object
-            go.transform.localScale *= scaleFactor;
+            go.transform.localScale /= scaleFactor;
         }
 
         Debug.Log("Converted all TMP_Text components to Legacy Text components.");

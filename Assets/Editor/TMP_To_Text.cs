@@ -15,16 +15,16 @@ public class TMPToLegacyTextConverter : EditorWindow
             GameObject go = tmp.gameObject;
             string textContent = tmp.text;
             Color textColor = tmp.color;
-            Font defaultFont = Resources.GetBuiltinResource<Font>("Arial.ttf");
+            Font defaultFont = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             
             float originalFontSize = tmp.fontSize;
             float scaleFactor = 1000; // Scale factor for visibility
-
+            
             Undo.RecordObject(go, "Convert TMP to Legacy Text");
-
+            
             // Remove TMP_Text component
             DestroyImmediate(tmp);
-
+            
             // Add legacy Text component
             Text legacyText = go.AddComponent<Text>();
             legacyText.text = textContent;
@@ -37,6 +37,17 @@ public class TMPToLegacyTextConverter : EditorWindow
             
             // Scale down the object
             go.transform.localScale /= scaleFactor;
+
+            switch (legacyText.gameObject.name)
+            {
+                case "Obj Name":
+                    legacyText.fontSize = 90;
+                    legacyText.gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(-0.35f, 0);
+                    break;
+                case "Text (TMP)":
+                    break;
+                
+            }
         }
 
         Debug.Log("Converted all TMP_Text components to Legacy Text components.");

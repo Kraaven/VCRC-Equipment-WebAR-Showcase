@@ -1,7 +1,5 @@
 **/node_modules
-assets/
 src/generated/
-dist/
 include/draco/
 include/ktx2/
 include/three/

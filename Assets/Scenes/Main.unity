@@ -179,7 +179,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 129
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -229,8 +229,8 @@ MonoBehaviour:
     Object:
       asset: {fileID: 3697685879336910729}
     CreateObjectInstance: 0
-    ImageDoesNotMove: 0
-    HideWhenTrackingIsLost: 0
+    ImageDoesNotMove: 1
+    HideWhenTrackingIsLost: 1
   - Image:
       Mode: 0
       File: {fileID: 2800000, guid: 74aab5077f71afa44ac373e23cc765f4, type: 3}
@@ -239,8 +239,8 @@ MonoBehaviour:
     Object:
       asset: {fileID: 6351622810762466255}
     CreateObjectInstance: 0
-    ImageDoesNotMove: 0
-    HideWhenTrackingIsLost: 0
+    ImageDoesNotMove: 1
+    HideWhenTrackingIsLost: 1
   - Image:
       Mode: 0
       File: {fileID: 2800000, guid: c63902bbae4f757498bb5a35ddc0a652, type: 3}
@@ -249,8 +249,8 @@ MonoBehaviour:
     Object:
       asset: {fileID: 581950387588926837}
     CreateObjectInstance: 0
-    ImageDoesNotMove: 0
-    HideWhenTrackingIsLost: 0
+    ImageDoesNotMove: 1
+    HideWhenTrackingIsLost: 1
   - Image:
       Mode: 0
       File: {fileID: 2800000, guid: 78d6aabd4bbd3f5488c98eef03cf63f1, type: 3}
@@ -259,8 +259,8 @@ MonoBehaviour:
     Object:
       asset: {fileID: 6428765594922885311}
     CreateObjectInstance: 0
-    ImageDoesNotMove: 0
-    HideWhenTrackingIsLost: 0
+    ImageDoesNotMove: 1
+    HideWhenTrackingIsLost: 1
   - Image:
       Mode: 0
       File: {fileID: 2800000, guid: aedc82f1ad26c234e85db0edbbc113f5, type: 3}
@@ -269,8 +269,8 @@ MonoBehaviour:
     Object:
       asset: {fileID: 3645814645854191579}
     CreateObjectInstance: 0
-    ImageDoesNotMove: 0
-    HideWhenTrackingIsLost: 0
+    ImageDoesNotMove: 1
+    HideWhenTrackingIsLost: 1
   - Image:
       Mode: 0
       File: {fileID: 2800000, guid: 9dc5e1ae0eb44ac4587c50e5f44f3a7e, type: 3}
@@ -279,8 +279,8 @@ MonoBehaviour:
     Object:
       asset: {fileID: 4423971825730600038}
     CreateObjectInstance: 0
-    ImageDoesNotMove: 0
-    HideWhenTrackingIsLost: 0
+    ImageDoesNotMove: 1
+    HideWhenTrackingIsLost: 1
   - Image:
       Mode: 0
       File: {fileID: 2800000, guid: b5a570442909b124b8a8168bb19590ab, type: 3}
@@ -289,8 +289,8 @@ MonoBehaviour:
     Object:
       asset: {fileID: 4367449334580351338}
     CreateObjectInstance: 0
-    ImageDoesNotMove: 0
-    HideWhenTrackingIsLost: 0
+    ImageDoesNotMove: 1
+    HideWhenTrackingIsLost: 1
 --- !u!4 &309237718
 Transform:
   m_ObjectHideFlags: 0
@@ -332,7 +332,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -367,7 +367,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 119
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -469,7 +469,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 119
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -600,7 +600,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.097788066, y: -0.8736338, z: 0.19678175, w: 0.43414113}
   m_LocalPosition: {x: 6.091816, y: 3.6271122, z: 4.6157355}
-  m_LocalScale: {x: 1.0000039, y: 1, z: 1.0000033}
+  m_LocalScale: {x: 1.0000066, y: 1, z: 1.0000057}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -868,7 +868,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 119
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -902,7 +902,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -949,22 +949,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf409ffccda34166b926284faafa75c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Needle.Engine.WebXR, Needle.Engine
-  createVRButton: 1
+  createVRButton: 0
   createARButton: 1
-  createSendToQuestButton: 1
+  createSendToQuestButton: 0
   createQRCode: 1
-  usePlacementReticle: 1
+  usePlacementReticle: 0
   customARPlacementReticle: {fileID: 0}
   usePlacementAdjustment: 0
   arScale: 1
-  autoPlace: 1
-  autoCenter: 1
+  autoPlace: 0
+  autoCenter: 0
   useXRAnchor: 0
-  useQuicklookExport: 1
+  useQuicklookExport: 0
   useDepthSensing: 0
-  useDefaultControls: 1
-  showControllerModels: 1
-  showHandModels: 1
+  useDefaultControls: 0
+  showControllerModels: 0
+  showHandModels: 0
   defaultAvatar: {fileID: 8817559676569467057, guid: dc55b2cca6c9bdc4187b43e34b1b51cf, type: 3}
 --- !u!4 &1211803453
 Transform:
@@ -1007,7 +1007,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 119
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1041,7 +1041,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 119
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 119
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1232,7 +1232,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 119
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1266,7 +1266,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 119
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1300,7 +1300,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 119
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1437,7 +1437,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 129
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1471,7 +1471,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 90
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1505,7 +1505,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 129
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1582,7 +1582,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 90
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1624,18 +1624,6 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Nvidia Jetson Xavier
---- !u!114 &2502043634081265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3697685879336910729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &4310803975728730
 Transform:
   m_ObjectHideFlags: 0
@@ -1668,7 +1656,7 @@ Transform:
   m_GameObject: {fileID: 815923430033749315}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.020999908, z: 0}
+  m_LocalPosition: {x: 0.037, y: 0.020999908, z: 0.009}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2149,9 +2137,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5888054901871421656}
-        m_TargetAssemblyTypeName: AR_Object, Assembly-CSharp
-        m_MethodName: ToggleButtons
+      - m_Target: {fileID: 4803546038641679973}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.ar_Object,
+          Assembly-CSharp
+        m_MethodName: TogglePanels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2324,9 +2313,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5787059914189080020}
-        m_TargetAssemblyTypeName: AR_Object, Assembly-CSharp
-        m_MethodName: ToggleButtons
+      - m_Target: {fileID: 4850598092511605609}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.ar_Object,
+          Assembly-CSharp
+        m_MethodName: TogglePanels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2525,7 +2515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8513583847914783355}
-  - component: {fileID: 7293964907958318279}
+  - component: {fileID: 8513583847914783356}
   m_Layer: 0
   m_Name: IntelMovidius
   m_TagString: Untagged
@@ -2880,9 +2870,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6895670331632551529}
-        m_TargetAssemblyTypeName: AR_Object, Assembly-CSharp
-        m_MethodName: ToggleButtons
+      - m_Target: {fileID: 5525172059582984406}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.ar_Object,
+          Assembly-CSharp
+        m_MethodName: TogglePanels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4967,7 +4958,7 @@ RectTransform:
   m_GameObject: {fileID: 7696718732113661117}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.95286, y: 0.95286, z: 0.95286}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6921002102148419010}
@@ -4977,7 +4968,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.68}
+  m_AnchoredPosition: {x: 0, y: 1.59}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2907520635045663650
@@ -5650,9 +5641,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7293964907958318279}
-        m_TargetAssemblyTypeName: AR_Object, Assembly-CSharp
-        m_MethodName: ToggleButtons
+      - m_Target: {fileID: 8513583847914783356}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.ar_Object,
+          Assembly-CSharp
+        m_MethodName: TogglePanels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5816,7 +5808,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5525172059582984405}
-  - component: {fileID: 6895670331632551529}
+  - component: {fileID: 5525172059582984406}
   m_Layer: 0
   m_Name: NightVision
   m_TagString: Untagged
@@ -5899,7 +5891,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5576866029051572359}
-  - component: {fileID: 2502043634081265}
+  - component: {fileID: 5576866029051572360}
   m_Layer: 0
   m_Name: FlirCamera
   m_TagString: Untagged
@@ -5926,18 +5918,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3755243994272438541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6428765594922885311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &3784640368070577739
 Transform:
   m_ObjectHideFlags: 0
@@ -5984,18 +5964,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &3823452662316493437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6351622810762466255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3839558417022902790
 GameObject:
   m_ObjectHideFlags: 0
@@ -6112,8 +6080,8 @@ Transform:
   m_GameObject: {fileID: 4389729763687458020}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: 0, y: 0.0384901, z: 0.00000036514004}
+  m_LocalScale: {x: 9.1161, y: 9.1161, z: 9.1161}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 8513583847914783355}
@@ -6414,7 +6382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4803546038641679972}
-  - component: {fileID: 5888054901871421656}
+  - component: {fileID: 4803546038641679973}
   m_Layer: 0
   m_Name: RasberryPie
   m_TagString: Untagged
@@ -6464,7 +6432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4850598092511605608}
-  - component: {fileID: 5787059914189080020}
+  - component: {fileID: 4850598092511605609}
   m_Layer: 0
   m_Name: Nvidia
   m_TagString: Untagged
@@ -6545,8 +6513,8 @@ Transform:
   m_GameObject: {fileID: 3839558417022902790}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.098, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0.079190016, z: 0}
+  m_LocalScale: {x: 0.4617, y: 0.4617, z: 0.4617}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5525172059582984405}
@@ -7030,6 +6998,25 @@ Transform:
   - {fileID: 5780428860018908244}
   m_Father: {fileID: 4536463236301743704}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4803546038641679973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4367449334580351338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe555dee2f2ac43afc1c86421729f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 4730607149433096067}
+  - {fileID: 6472558452272058510}
+  - {fileID: 5828110681678409478}
+  ui: {fileID: 1115732518880345448}
+  ar_Cam: {fileID: 706762905}
+  toggle: 1
 --- !u!224 &4810945233993588460
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7167,6 +7154,26 @@ Transform:
   - {fileID: 7158533554712569}
   m_Father: {fileID: 4536463236301743704}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4850598092511605609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4423971825730600038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe555dee2f2ac43afc1c86421729f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 4638470995618671247}
+  - {fileID: 6353017177226837378}
+  - {fileID: 7281075752292619466}
+  - {fileID: 5843646059443012106}
+  ui: {fileID: 1045598417404383332}
+  ar_Cam: {fileID: 706762905}
+  toggle: 1
 --- !u!222 &4853600586674816400
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7228,8 +7235,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107846480979907545}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.9234, y: 0.9234, z: 0.9234}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 838601486297879206}
@@ -7239,7 +7246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.68}
+  m_AnchoredPosition: {x: 0, y: 1.54}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &4903290001930113370
@@ -7664,7 +7671,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1045598417404383332}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.009}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -7677,7 +7684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.68}
+  m_AnchoredPosition: {x: 0.037, y: 1.68}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &5485433764169577097
@@ -7752,6 +7759,24 @@ Transform:
   - {fileID: 4468426959330916540}
   m_Father: {fileID: 4536463236301743704}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5525172059582984406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3645814645854191579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe555dee2f2ac43afc1c86421729f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 165257750784312621}
+  - {fileID: 8729776161110990579}
+  ui: {fileID: 107846480979907545}
+  ar_Cam: {fileID: 706762905}
+  toggle: 1
 --- !u!4 &5576866029051572359
 Transform:
   m_ObjectHideFlags: 0
@@ -7770,6 +7795,24 @@ Transform:
   - {fileID: 6021824369144019578}
   m_Father: {fileID: 4536463236301743704}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5576866029051572360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3697685879336910729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe555dee2f2ac43afc1c86421729f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 8744951951787505237}
+  - {fileID: 8311741834068835535}
+  ui: {fileID: 8605971808394557678}
+  ar_Cam: {fileID: 706762905}
+  toggle: 1
 --- !u!1 &5585067229596642793
 GameObject:
   m_ObjectHideFlags: 0
@@ -7827,8 +7870,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115732518880345448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0085852}
+  m_LocalScale: {x: 0.3695, y: 0.3695, z: 0.3695}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 407446602715102231}
@@ -7839,7 +7882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.68}
+  m_AnchoredPosition: {x: 0, y: 0.642}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &5625929109989976707
@@ -8060,25 +8103,13 @@ Transform:
   m_GameObject: {fileID: 6589863294858135278}
   serializedVersion: 2
   m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0.032000065, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0.033100247, z: 0.0085852}
+  m_LocalScale: {x: 0.18475, y: 0.18475, z: 0.18475}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4129450181873490361}
   m_Father: {fileID: 4803546038641679972}
   m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
---- !u!114 &5787059914189080020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4423971825730600038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5799802843099375065
 GameObject:
   m_ObjectHideFlags: 0
@@ -8152,18 +8183,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5888054901871421656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4367449334580351338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5941318767772221816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8543,7 +8562,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2742882281400474817}
-  - component: {fileID: 3823452662316493437}
+  - component: {fileID: 6351622810762466256}
   m_Layer: 0
   m_Name: GooleCoral
   m_TagString: Untagged
@@ -8551,6 +8570,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6351622810762466256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6351622810762466255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe555dee2f2ac43afc1c86421729f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 2674941845184464166}
+  - {fileID: 7185869695843234726}
+  - {fileID: 3313801164717340775}
+  ui: {fileID: 7765001376401768397}
+  ar_Cam: {fileID: 706762905}
+  toggle: 1
 --- !u!1 &6353017177226837378
 GameObject:
   m_ObjectHideFlags: 0
@@ -8636,7 +8674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2810883416356351921}
-  - component: {fileID: 3755243994272438541}
+  - component: {fileID: 6428765594922885312}
   m_Layer: 0
   m_Name: MetaQuest
   m_TagString: Untagged
@@ -8644,6 +8682,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6428765594922885312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428765594922885311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe555dee2f2ac43afc1c86421729f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 2597910799434266198}
+  - {fileID: 5639787670385175976}
+  ui: {fileID: 7696718732113661117}
+  ar_Cam: {fileID: 706762905}
+  toggle: 1
 --- !u!1 &6441761513497299758
 GameObject:
   m_ObjectHideFlags: 0
@@ -9014,18 +9070,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6895670331632551529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3645814645854191579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &6908377871712769232
 Transform:
   m_ObjectHideFlags: 0
@@ -9244,9 +9288,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3823452662316493437}
-        m_TargetAssemblyTypeName: AR_Object, Assembly-CSharp
-        m_MethodName: ToggleButtons
+      - m_Target: {fileID: 6351622810762466256}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.ar_Object,
+          Assembly-CSharp
+        m_MethodName: TogglePanels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9420,9 +9465,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3755243994272438541}
-        m_TargetAssemblyTypeName: AR_Object, Assembly-CSharp
-        m_MethodName: ToggleButtons
+      - m_Target: {fileID: 6428765594922885312}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.ar_Object,
+          Assembly-CSharp
+        m_MethodName: TogglePanels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9665,18 +9711,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &7293964907958318279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 581950387588926837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7296896815710284281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10244,8 +10278,8 @@ Transform:
   m_GameObject: {fileID: 6944066930236777108}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -0, y: 0.119, z: -0.064}
-  m_LocalScale: {x: 5, y: 5, z: 5.249917}
+  m_LocalPosition: {x: 0, y: 0.102590084, z: -0.06098306}
+  m_LocalScale: {x: 4.7643, y: 4.7643, z: 5.002436}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2810883416356351921}
@@ -11401,6 +11435,26 @@ Transform:
   - {fileID: 4008383278560886366}
   m_Father: {fileID: 4536463236301743704}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8513583847914783356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581950387588926837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe555dee2f2ac43afc1c86421729f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 8442475718648798108}
+  - {fileID: 7880429988077292689}
+  - {fileID: 5799802843099375065}
+  - {fileID: 7062547241019757818}
+  ui: {fileID: 4320126443057635703}
+  ar_Cam: {fileID: 706762905}
+  toggle: 1
 --- !u!1 &8552547335848013963
 GameObject:
   m_ObjectHideFlags: 0
@@ -11720,7 +11774,7 @@ RectTransform:
   m_GameObject: {fileID: 4320126443057635703}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.91161, y: 0.91161, z: 0.91161}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3542158391118651400}
@@ -11732,7 +11786,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.68}
+  m_AnchoredPosition: {x: 0, y: 1.57}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &8750584471867199606
@@ -11929,9 +11983,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2502043634081265}
-        m_TargetAssemblyTypeName: AR_Object, Assembly-CSharp
-        m_MethodName: ToggleButtons
+      - m_Target: {fileID: 5576866029051572360}
+        m_TargetAssemblyTypeName: Needle.Typescript.GeneratedComponents.ar_Object,
+          Assembly-CSharp
+        m_MethodName: TogglePanels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
